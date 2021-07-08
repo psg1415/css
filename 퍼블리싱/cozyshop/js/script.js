@@ -9,7 +9,6 @@
 		  clickable : true,
         },
       });
-
     var swiper = new Swiper(".tv_movie .mySwiper", {
             slidesPerView: 5,
             spaceBetween: 0,
