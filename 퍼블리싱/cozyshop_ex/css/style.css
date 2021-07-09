@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/* 공통 */
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+	box-sizing: border-box;
+	color: #000000;
+}
+
+html {
+	font-size: 13px;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.layout_width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* site_top */
+.site_top {
+	background-color: #f9f9f9;
+	text-align: right;
+	height: 30px;
+}
+
+.site_top a {
+	font-family: Montserrat;
+	font-size: 12px;
+	letter-spacing: -0.24px;
+	color: #333333;
+	position: relative;
+	display: inline-block;
+	padding: 0 11px 0 10px;
+	line-height: 30px;
+	height: 30px;
+}
+
+.site_top a:before {
+	content: '';
+	width: 1px;
+	height: 8px;
+	display: block;
+	background-color: #333333;
+	position: absolute;
+	left: 0;
+	top: 11px;
+}
+.site_top .first:before {
+	display: none;
+}
+
+/* 로고 */
+.logo .box {
+	width: calc(100% / 3);
+	float: left;
+	margin: 0;
+	height: 120px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 15px;
+}
+.logo .inner {
+	height: 120px;
+}
+
+.logo:before {
+	clear: left;
+	content: '';
+	display: block;
+}
+
+.logo .live img {
+	height: 68px;
+}
+
+.logo .logo_logo {
+	text-align: center;
+	padding: 46px 0;
+}
+
+.logo .logo_logo img {
+	height: 28px;
+}
+
+.logo .search {
+	text-align: right;
+}
+
+.logo .search input[type='image'] {
+	height: 37px;
+	vertical-align: middle;
+}
+
+.logo .search .form_wrap {
+	width: 200px;
+	border-bottom: 1px solid #222222;
+	float: right;
+	bottom: 0;
+	padding-top: 25px;
+}
+
+.logo .search:after {
+	clear: right;
+	content: '';
+	display: inline-block;
+}
+
+
+.logo .search input[type='text'] {
+	width: calc(100% - 27px);
+	border: 0;
+	position: relative;
+	top: 5px;
+}
+

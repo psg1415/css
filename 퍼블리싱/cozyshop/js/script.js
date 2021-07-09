@@ -8,6 +8,7 @@
           el: ".main_banner .swiper-pagination",
 		  clickable : true,
         },
+		loop : true,
       });
     var swiper = new Swiper(".tv_movie .mySwiper", {
             slidesPerView: 5,
@@ -20,5 +21,6 @@
               el: ".tv_movie .swiper-pagination",
               clickable: true,
             },
+			loop : true,
           });
  };
